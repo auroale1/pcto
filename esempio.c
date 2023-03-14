@@ -1,13 +1,15 @@
-#include<stdio.h>
+    //SCRIVERE UN PROGRAMMA CHE CHIEDA ALL'UTENTE DI INSERIRE 
+    //UN INT ETA E STAMPARE A SCHERMO IL VALORE 
 
-int main()
-{
-   int  numero =20;
-   double   numerolungo = 83247;
-   float    numeroconlavirgola =22.8;
-   char carattere = 99; 
+    #include <stdio.h>
 
-   printf("il numero è: %d\n", numero);
-   printf("numero lungo è: %f, numero con la virgola è: %f\n", numerolungo, numeroconlavirgola);
-   printf("il carattere è %c\n", carattere);
-}
+    int main()
+    {
+        int eta;
+
+        printf("quanti anni hai: ");
+        scanf("%d", &eta);
+        printf("hai %d\n", eta);
+
+
+    }
